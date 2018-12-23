@@ -1,0 +1,24 @@
+/**index.wxss**/
+
+.imagesize{
+ display:flex;                    
+ justify-content: center;         
+}
+.imagesize image { 
+  width:800rpx;
+  height:400rpx;
+margin-top: 250rpx;
+  }
+  .section2{
+   
+  font-size: 25px;
+ color:white;
+text-align: center;
+margin-bottom: 100rpx;
+}
+page { 
+overflow:hidden; 
+position:fixed; 
+background-image:url('http://imgsrc.baidu.com/forum/pic/item/b3aab02ad40735fa8eb64b1592510fb30e24080e.jpg');margin: 0px; 
+background-size: 100% 100%; 
+} 

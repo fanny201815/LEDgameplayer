@@ -1,0 +1,19 @@
+<!--index.wxml-->
+
+<view class='imagesize'>
+  <image src="/images/1.png" class='in-image'>
+  </image>
+</view>
+
+<view class="section2">您的得分是：1</view>
+<view class="section2">最高分是：1</view>
+
+<i-tab-bar current="{{ current }}" bindchange="handleChange" fixed="true">
+    <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="Game" ></i-tab-bar-item>
+    <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="Us" ></i-tab-bar-item>
+</i-tab-bar>
+
+
+
+
+

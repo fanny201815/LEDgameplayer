@@ -1,0 +1,24 @@
+<!--pages/a/a.wxml-->
+
+<view class='section'>
+<view>LED游戏机</view>
+<view>LEDGameplayer</view>
+<view>小组成员：范思忆 桑玮婧 王保昕 林怡如</view>
+<view>作品简介</view>
+<view>你是否回忆童年痴迷小游戏的时光？</view>
+<view>你是否是经典游戏爱好者？</view>
+<view>不要犹豫 现在就有一个机会让你重回童年!</view>
+<view>炫彩LED显示屏</view>
+<view>红外超灵敏操控</view>
+<view>微信小程序成绩分享</view>
+<view>全彩显示屏只需要一个I/O接口即可控制！</view>
+<view>你 值得拥有！</view>
+<view>E211倾情奉献</view>
+<view>开心 开放 开源 开创</view>
+</view>
+
+
+<i-tab-bar current="{{ current }}" bindchange="handleChange" fixed="true">
+    <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="Game" ></i-tab-bar-item>
+    <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="Us" ></i-tab-bar-item>
+</i-tab-bar>

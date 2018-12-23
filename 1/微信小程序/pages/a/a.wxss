@@ -1,0 +1,16 @@
+/* pages/a/a.wxss */
+.section{
+  display:flex;                    
+ justify-content: space-around;    
+  flex-direction:column;
+  align-items: center;
+color: white;
+font-size: 17px;
+}
+page { 
+overflow:hidden; 
+position:fixed; 
+background-image:url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1544118837269&di=0b0273ad8b7baff55902cd2382dcb186&imgtype=0&src=http%3A%2F%2Fimg1.sc115.com%2Fuploads%2Fsc%2Fjpg%2FHD%2F10%2F7101.jpg'); 
+margin: 0px; 
+ background-size: 100% 100%; 
+} /*背景*/
